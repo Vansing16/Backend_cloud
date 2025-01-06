@@ -1,0 +1,232 @@
+/* screen - admin-sign-in */
+
+.admin-sign-in {
+  align-items: flex-start;
+  background-color: #f0f2f5;
+  display: flex;
+  width: 1920px;
+}
+
+.admin-sign-in .overlap-group2 {
+  background-image: url(../img/planet-581239-1920-1.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1080px;
+  position: relative;
+  width: 1920px;
+}
+
+.admin-sign-in .rectangle-76 {
+  background-color: var(--ffffff-bg-1);
+  border-radius: 12px;
+  box-shadow: 0px 2px 6px #00000040;
+  height: 423px;
+  left: 755px;
+  position: absolute;
+  top: 353px;
+  width: 408px;
+}
+
+.admin-sign-in .sign-in-header {
+  align-items: flex-end;
+  background-color: var(--adb5bd-text-color-3);
+  border-radius: 8px;
+  box-shadow: 0px 2px 6px #dc22655c;
+  height: 76px;
+  left: 770px;
+  min-width: 377px;
+  padding: 21.8px 101px;
+  top: 329px;
+}
+
+.admin-sign-in .icon18pxfacebook {
+  height: 9px;
+  width: 18px;
+}
+
+.admin-sign-in .sign-in-form {
+  align-items: flex-start;
+  flex-direction: column;
+  left: 780px;
+  min-height: 216px;
+  top: 525px;
+  width: 363px;
+}
+
+.admin-sign-in .form-fieldregular-boarder {
+  align-items: flex-start;
+  background-color: var(--ffffff-bg-1);
+  border: 1px solid;
+  border-color: var(--lineardark-snow);
+  border-radius: 8px;
+  display: flex;
+  height: 42px;
+  min-width: 361px;
+  padding: 9px 15px;
+}
+
+.admin-sign-in .current-password {
+  letter-spacing: 0;
+  line-height: 19.6px;
+  min-height: 20px;
+  white-space: nowrap;
+}
+
+.admin-sign-in .form-fieldregular-boarder-1 {
+  align-items: flex-start;
+  background-color: var(--ffffff-bg-1);
+  border: 1px solid;
+  border-color: var(--lineardark-snow);
+  border-radius: 8px;
+  display: flex;
+  height: 42px;
+  margin-top: 14px;
+  min-width: 361px;
+  padding: 9px 15px;
+}
+
+.admin-sign-in .current-password-1 {
+  letter-spacing: 0;
+  line-height: 19.6px;
+  min-height: 20px;
+  white-space: nowrap;
+}
+
+.admin-sign-in .remember-container {
+  align-items: flex-start;
+  display: flex;
+  gap: 6px;
+  margin-top: 16px;
+  min-width: 132px;
+}
+
+.admin-sign-in .remember-me-toggle {
+  align-items: flex-start;
+  display: flex;
+  min-width: 34px;
+}
+
+.admin-sign-in .overlap-group {
+  height: 20px;
+  position: relative;
+  width: 34px;
+}
+
+.admin-sign-in .bg {
+  background-color: var(--lineardark-snow);
+  border-radius: 7.5px;
+  height: 15px;
+  left: 4px;
+  position: absolute;
+  top: 3px;
+  width: 30px;
+}
+
+.admin-sign-in .circle {
+  background-color: var(--ffffff-bg-1);
+  border: 1px solid;
+  border-color: var(--lineardark-snow);
+  border-radius: 10px;
+  box-shadow: 0px 2px 6px #00000040;
+  height: 20px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 20px;
+}
+
+.admin-sign-in .remember-me {
+  letter-spacing: 0;
+  line-height: 19.6px;
+  min-height: 20px;
+  white-space: nowrap;
+}
+
+.admin-sign-in .sign-in-form-1 {
+  align-items: flex-start;
+  background-color: var(--adb5bd-text-color-3);
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  height: 40px;
+  margin-top: 22px;
+  min-width: 361px;
+  padding: 10px 158.8px;
+}
+
+.admin-sign-in .text {
+  color: var(--ffffff-bg-1);
+  font-family: var(--font-family-roboto-bold);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 16.8px;
+  min-height: 17px;
+  min-width: 43px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.admin-sign-in .logo {
+  color: transparent;
+  font-family: var(--font-family-inter-black);
+  font-size: var(--font-size-xl);
+  font-weight: 900;
+  left: 737px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 351px;
+  width: 442px;
+}
+
+.admin-sign-in .span0 {
+  color: #f896e3;
+}
+
+.admin-sign-in .span1 {
+  color: var(--ffffff-bg-1);
+}
+
+.admin-sign-in .sign-in-header-1 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  left: 815px;
+  min-height: 66px;
+  position: absolute;
+  top: 428px;
+  width: 294px;
+}
+
+.admin-sign-in .sign-in {
+  color: var(--lineardark-blue);
+  font-family: var(--font-family-roboto-bold);
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 30.8px;
+  margin-right: 11.0px;
+  min-height: 31px;
+  min-width: 69px;
+  white-space: nowrap;
+}
+
+.admin-sign-in .enter-your-email-and {
+  color: var(--lineargrey);
+  font-family: var(--font-family-roboto-regular);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 22.4px;
+  margin-right: 4.0px;
+  min-width: 290px;
+  white-space: nowrap;
+}
+
+.admin-sign-in .sign-in-1 {
+  display: flex;
+  position: absolute;
+}
