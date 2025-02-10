@@ -8,7 +8,7 @@
             <div class="admin-1 admin-3">
                 <img class="beared-guy02-min-1" src="{{ asset('img/beared-guy02-min-1@2x.png') }}" alt="Beared Guy02-min 1" />
                 <div class="frame-270">
-                    <div class="austin-robertson h6-16px-regular-inter">Chesda</div>
+                    <div class="austin-robertson h6-16px-regular-inter">Vansing</div>
                     <div class="marketing-administra small-texts-13px-regular-inter">Admin</div>
                 </div>
             </div>

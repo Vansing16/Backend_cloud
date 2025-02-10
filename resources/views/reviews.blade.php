@@ -8,7 +8,7 @@
                 <h1 class="title-1 h1-40px-bold-inter">Contact Messages</h1>
                 <div class="manage-your-users h4-23px-medium-inter">Manage your contact messages</div>
             </div>
-            <a href="/admin/create/review" class="button-create"><div class="create h6-16px-regular-inter">Create</div></a>
+            {{-- <a href="/admin/create/review" class="button-create"><div class="create h6-16px-regular-inter">Create</div></a> --}}
         </div>
         <div class="content">
             <div class="overlap-group-2">
@@ -40,9 +40,9 @@
                         <div class="frame-360-4">
                             <div class=" valign-text-middle inter-medium-manatee-16px">Message</div>
                         </div>
-                        <div class="frame-360-4">
+                        {{-- <div class="frame-360-4">
                             <div class="actions valign-text-middle inter-medium-manatee-16px">Actions</div>
-                        </div>
+                        </div> --}}
                     </div>
                     @foreach($messages as $message)
                         <div class="table-child">
@@ -56,12 +56,11 @@
                                 <div class="frame-360-4">
                                     <div class="rating valign-text-middle inter-medium-manatee-16px">{{ $message->message }}</div>
                                 </div>
-                                <div class="frame-360-4">
+                                {{-- <div class="frame-360-4">
                                     <div class="dropdown">
                                         <button class="dropbtn">...</button>
-
                                     </div>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                     @endforeach

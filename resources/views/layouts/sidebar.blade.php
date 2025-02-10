@@ -35,7 +35,7 @@
                             </div>
                         </div>
                     </a>
-                    <a href="/admin/approvals" class="nav-link">
+                    {{-- <a href="/admin/approvals" class="nav-link">
                         <div class="x-child x">
                             <div class="messages-9">
                                 <div class="messages-10">
@@ -46,7 +46,7 @@
                             </div>
                         </div>
                     </a>
-                    <img class="divider" src="{{ asset('img/divider.svg') }}" alt="divider" />
+                    <img class="divider" src="{{ asset('img/divider.svg') }}" alt="divider" /> --}}
                 </div>
             </div>
             <div class="management-selections management">
@@ -54,7 +54,7 @@
                     <div class="help-2"><div class="help inter-semi-bold-black-16px">Management</div></div>
                 </div>
                 <div class="management-child management">
-                    <a href="/admin/create" class="nav-link">
+                    {{-- <a href="/admin/create" class="nav-link">
                         <div class="x-child x">
                             <div class="messages-7">
                                 <div class="messages-8">
@@ -68,7 +68,7 @@
                                 <img class="dropdown" src="{{ asset('img/dropdown-3.svg') }}" alt="Dropdown" />
                             </div>
                         </div>
-                    </a>
+                    </a> --}}
 
                     <form action="/admin/signout" method="POST" class="nav-link">
                         @csrf <!-- Include this directive to add a CSRF token for security -->

@@ -9,7 +9,7 @@ use App\Models\Admin;
 use Illuminate\Support\Facades\Route;
 
 // Authentication Routes
-Route::get('/admin/signup', [AdminAuthController::class, 'showSignUpForm'])->name('admin.signup');
+Route::get('/', [AdminAuthController::class, 'showSignUpForm'])->name('admin.signup');
 Route::post('/admin/signup', [AdminAuthController::class, 'signUp'])->name('admin.signup.post');
 Route::get('/admin/signin', [AdminAuthController::class, 'showSignInForm'])->name('admin.signin');
 Route::post('/admin/signin', [AdminAuthController::class, 'signIn'])->name('admin.signin.post');
@@ -19,7 +19,7 @@ Route::post('/admin/signout', [AdminAuthController::class, 'signOut'])->name('ad
 Route::middleware(['auth:admin'])->group(function () {
     Route::get('/admin/users', [UserController::class, 'index'])->name('admin.users');
     Route::get('/admin/create/user', [UserController::class, 'create'])->name('admin.users.create');
-    Route::post('/admin/users', [UserController::class, 'store'])->name('admin.users.store');
+    Route::post('/admin/users', [UserController::class, 'store'])->name('users.store');
     Route::get('/admin/users/{id}/edit/{type}', [UserController::class, 'edit'])->name('admin.users.edit');
     Route::put('/admin/users/{id}', [UserController::class, 'update'])->name('admin.users.update');
     Route::delete('/admin/users/{id}', [UserController::class, 'destroy'])->name('admin.users.destroy');
