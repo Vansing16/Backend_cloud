@@ -17,7 +17,6 @@
                     <input type="password" name="password" placeholder="Password" class="frame-3605 form-control" required>
                     <select class="frame-3605 form-control" name="user_type" required>
                         <option value="">User type</option>
-                        <option value="admin">Admin</option>
                         <option value="freelancer">Freelancer</option>
                         <option value="customer">Customer</option>
                     </select>

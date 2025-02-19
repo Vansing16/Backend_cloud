@@ -23,12 +23,6 @@
                                 </div>
                             </div>
                             <div class="frame-1267">
-                                <div class="users-1 h5-19px-medium-inter">Total Admins</div>
-                                <div class="frame-1266">
-                                    <p class="address h6-16px-regular-inter">{{ $totalAdmins }} Admins</p>
-                                </div>
-                            </div>
-                            <div class="frame-1267">
                                 <div class="users-1 h5-19px-medium-inter">Total Freelancers</div>
                                 <div class="frame-1266">
                                     <p class="address h6-16px-regular-inter">{{ $totalFreelancers }} Freelancers</p>
@@ -108,43 +102,7 @@
                                     </div>
                                 </div>
                             @endforeach
-                            @foreach ($admins as $admin)
-                                <div class="table-child">
-                                    <div class="frame-36022">
-                                        <div class="frame-360">
-                                            <div class="name-3 valign-text-middle inter-medium-manatee-16px">
-                                                {{ $admin->name }}</div>
-                                        </div>
-                                        <div class="frame-360">
-                                            <div class="name-3 valign-text-middle inter-medium-manatee-16px"> </div>
-                                        </div>
-                                        <div class="frame-360">
-                                            <div class="number-3 valign-text-middle inter-medium-manatee-16px">
-                                                {{ $admin->id }}</div>
-                                        </div>
-                                        <div class="frame-360">
-                                            <div class="admin-2 valign-text-middle h6-16px-regular-inter">Admin</div>
-                                        </div>
-                                        <div class="frame-360">
-                                            <div class="jackgmaicom-3 valign-text-middle h6-16px-regular-inter">
-                                                {{ $admin->email }}</div>
-                                        </div>
-                                        <div class="frame-360-last">
-                                            <a
-                                                href="{{ route('admin.users.edit', ['id' => $admin->id, 'type' => 'admin']) }}">Edit</a>
-                                            <a href="#"
-                                                onclick="event.preventDefault(); document.getElementById('delete-admin-{{ $admin->id }}').submit();">Delete</a>
-                                            <form id="delete-admin-{{ $admin->id }}"
-                                                action="{{ route('admin.users.destroy', $admin->id) }}" method="POST"
-                                                style="display: none;">
-                                                @csrf
-                                                @method('DELETE')
-                                            </form>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            @endforeach
+                            
                             @foreach ($freelancers as $freelancer)
                                 <div class="table-child">
                                     <div class="frame-36022">

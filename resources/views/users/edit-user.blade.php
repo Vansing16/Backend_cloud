@@ -35,11 +35,6 @@
                         <input type="text" name="last_name" value="{{ $model->last_name }}" placeholder="Last Name" class="frame-3605 form-control" required>
                         <input type="email" name="email" value="{{ $model->email }}" placeholder="Email" class="frame-3605 form-control" required>
                         <input type="password" name="password" placeholder="Password" class="frame-3605 form-control">
-                    @elseif($type == 'admin')
-                        <input type="text" name="first_name" value="{{ explode(' ', $model->name)[0] }}" placeholder="First Name" class="frame-3605 form-control" required>
-                        <input type="text" name="last_name" value="{{ explode(' ', $model->name)[1] }}" placeholder="Last Name" class="frame-3605 form-control" required>
-                        <input type="email" name="email" value="{{ $model->email }}" placeholder="Email" class="frame-3605 form-control" required>
-                        <input type="password" name="password" placeholder="Password" class="frame-3605 form-control">
                     @elseif($type == 'freelancer')
                         <input type="text" name="first_name" value="{{ $model->first_name }}" placeholder="First Name" class="frame-3605 form-control" required>
                         <input type="text" name="last_name" value="{{ $model->last_name }}" placeholder="Last Name" class="frame-3605 form-control" required>
