@@ -10,6 +10,7 @@ class CreateAddServicesTable extends Migration
     {
         Schema::create('services', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('freelancer_id')->constrained('freelancers'); // Reference to Freelancer
             $table->string('title');
             $table->string('thumbnail');
             $table->string('category');
